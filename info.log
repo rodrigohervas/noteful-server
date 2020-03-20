@@ -1,0 +1,12 @@
+{"message":"error getting folders","loc":"at folders.service.getAll","internalMessage":"database \"noteful-test\" does not exist","level":"error"}
+{"message":"error updating note","loc":"at notes.service.patchById","internalMessage":"update \"noteful_notes\" set \"date_modified\" = $1, \"folder_id\" = $2, \"content\" = $3 where \"id\" = $4 returning * - invalid input syntax for type timestamp: \"0NaN-NaN-NaNTNaN:NaN:NaN.NaN+NaN:NaN\"","level":"error"}
+{"message":"undefined is mandatory","status":400,"level":"error"}
+{"message":"undefined is mandatory","status":400,"level":"error"}
+{"message":"undefined is mandatory","status":400,"level":"error"}
+{"message":"error creating note","loc":"at notes.service.post","internalMessage":"insert into \"noteful_notes\" (\"content\", \"date_modified\", \"folder_id\", \"name\") values ($1, $2, $3, $4) returning * - invalid input syntax for type timestamp: \"0NaN-NaN-NaNTNaN:NaN:NaN.NaN+NaN:NaN\"","level":"error"}
+{"message":"error creating note","loc":"at notes.service.post","internalMessage":"insert into \"noteful_notes\" (\"content\", \"date_modified\", \"folder_id\", \"name\") values ($1, $2, $3, $4) returning * - invalid input syntax for type timestamp: \"0NaN-NaN-NaNTNaN:NaN:NaN.NaN+NaN:NaN\"","level":"error"}
+{"message":"error deleting note","status":404,"loc":"at notes.service.deleteById","internalMessage":"Note doesn't exist","level":"error"}
+{"message":"error deleting note","status":404,"loc":"at notes.service.deleteById","internalMessage":"Note doesn't exist","level":"error"}
+{"message":"error creating note","loc":"at notes.service.post","internalMessage":"insert into \"noteful_notes\" (\"content\", \"date_modified\", \"folder_id\", \"name\") values ($1, $2, $3, $4) returning * - invalid input syntax for integer: \"Names\"","level":"error"}
+{"message":"error deleting note","status":404,"loc":"at notes.service.deleteById","internalMessage":"Note doesn't exist","level":"error"}
+{"message":"error creating note","loc":"at notes.service.post","internalMessage":"insert into \"noteful_notes\" (\"content\", \"date_modified\", \"folder_id\", \"name\") values ($1, $2, $3, $4) returning * - invalid input syntax for integer: \"Pisca\"","level":"error"}
