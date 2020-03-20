@@ -1,4 +1,4 @@
-# Noteful server!
+# Noteful server
 
 Nodejs server with CRUD functionality.
 
@@ -22,7 +22,7 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
     3. DB_URL=[YOUR_CONNECTION_STRING_HERE]
 7. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "noteful-server",`
 
-Note. this server can be used woith the following client repo: https://github.com/rodrigohervas/noteful.git
+Note. This server can be used with the following client repo: https://github.com/rodrigohervas/noteful.git
 (`git clone https://github.com/rodrigohervas/noteful.git NEW-PROJECT-NAME`)
 
 ## Scripts
