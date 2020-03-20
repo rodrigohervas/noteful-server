@@ -1,5 +1,5 @@
 {
-  "name": "express-template",
+  "name": "noteful-server",
   "version": "1.0.0",
   "description": "Express boilerplate",
   "main": "server.js",
