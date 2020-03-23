@@ -39,8 +39,7 @@ const NotesService = {
             folder_id: folder_id,
             content: content
         }
-        console.log('NOTE: ', note)
-
+        
         for (const [key, value] of Object.entries(note)) {
             if(!value) {
                 throw ( {message: `${value} is mandatory`, status: 400} )

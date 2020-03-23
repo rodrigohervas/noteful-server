@@ -25,8 +25,18 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 Note. This server can be used with the following client repo: https://github.com/rodrigohervas/noteful.git
 (`git clone https://github.com/rodrigohervas/noteful.git NEW-PROJECT-NAME`)
 
+
 ## Scripts
 
 Start the application `npm start`
 
 Start nodemon for the application `npm run dev`
+
+
+## Related Repos
+
+https://github.com/rodrigohervas/noteful.git
+
+
+## Live Site
+
