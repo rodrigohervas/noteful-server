@@ -40,3 +40,5 @@ https://github.com/rodrigohervas/noteful.git
 
 ## Live Site
 
+https://notefulrh.herokuapp.com/api/folders/
+https://notefulrh.herokuapp.com/api/notes/
