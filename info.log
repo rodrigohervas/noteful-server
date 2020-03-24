@@ -11,3 +11,4 @@
 {"message":"error deleting note","status":404,"loc":"at notes.service.deleteById","internalMessage":"Note doesn't exist","level":"error"}
 {"message":"error creating note","loc":"at notes.service.post","internalMessage":"insert into \"noteful_notes\" (\"content\", \"date_modified\", \"folder_id\", \"name\") values ($1, $2, $3, $4) returning * - invalid input syntax for integer: \"Pisca\"","level":"error"}
 {"message":"error getting notes","loc":"at notes.service.getAll","internalMessage":"Unable to acquire a connection","level":"error"}
+{"message":"error getting note","status":404,"loc":"at notes.service.getById","internalMessage":"Note doesn't exist","level":"error"}
